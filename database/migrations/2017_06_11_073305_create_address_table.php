@@ -18,6 +18,7 @@ class CreateAddressTable extends Migration
             $table->string('alias');
             $table->string('address_1');
             $table->string('address_2')->nullable();
+            $table->string('phone')->unique();
             $table->string('zip')->nullable();
             $table->integer('city_id')->nullable();
             $table->integer('province_id')->nullable();

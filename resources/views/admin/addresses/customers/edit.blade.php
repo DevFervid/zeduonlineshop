@@ -14,6 +14,7 @@
                         <td class="col-md-1">Alias</td>
                         <td class="col-md-2">Address 1</td>
                         <td class="col-md-2">Address 2</td>
+                        <td class="col-md-2">Phone Number</td>
                         <td class="col-md-2">City</td>
                         <td class="col-md-2">Country</td>
                         <td class="col-md-2">Zip</td>
@@ -25,6 +26,7 @@
                         <td>{{ $address->alias }}</td>
                         <td>{{ $address->address_1 }}</td>
                         <td>{{ $address->address_2 }}</td>
+                        <td>{{ $address->phone}}</td>
                         <td>
                             @if(isset($address->city))
                                 {{ $address->city->name }}

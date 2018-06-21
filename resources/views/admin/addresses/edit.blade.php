@@ -35,6 +35,10 @@
                         <input type="text" name="address_2" id="address_2" placeholder="Address 2" class="form-control" value="{{ $address->address_2 ?: old('address_2') }}">
                     </div>
                     <div class="form-group">
+                        <label for="phone">Phone Number </label>
+                        <input type="text" name="phone" id="phone" placeholder="Address 2" class="form-control" value="{{ $address->phone ?: old('phone') }}">
+                    </div>
+                    <div class="form-group">
                         <label for="country_id">Country </label>
                         <select name="country_id" id="country_id" class="form-control">
                             @foreach($countries as $country)

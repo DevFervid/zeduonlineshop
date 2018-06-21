@@ -14,6 +14,7 @@
                         <tr>
                             <td class="col-md-1">Alias</td>
                             <td class="col-md-2">Address 1</td>
+                            <td class="col-md-2">Phone Number</td>
                             <td class="col-md-1">Country</td>
                             <td class="col-md-2">Province</td>
                             <td class="col-md-1">City</td>
@@ -27,6 +28,7 @@
                             <tr>
                                 <td><a href="{{ route('admin.customers.show', $customer->id) }}">{{ $address->alias }}</a></td>
                                 <td>{{ $address->address_1 }}</td>
+                                <td>{{ $address->phone }}</td>
                                 <td>{{ $address->country->name }}</td>
                                 <td>
                                     @if(isset($address->province))

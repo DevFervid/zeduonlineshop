@@ -24,6 +24,7 @@ class Address extends Model
         'alias',
         'address_1',
         'address_2',
+        'phone',
         'zip',
         'city_id',
         'province_id',

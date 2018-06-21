@@ -97,6 +97,7 @@
                                     <th>Alias</th>
                                     <th>Address 1</th>
                                     <th>Address 2</th>
+                                    <th>Phone Number</th>
                                     <th>City</th>
                                     <th>Province</th>
                                     <th>Country</th>
@@ -107,7 +108,8 @@
                                         <tr>
                                             <td>{{$address->alias}}</td>
                                             <td>{{$address->address_1}}</td>
-                                            <td>{{$address->address_1}}</td>
+                                            <td>{{$address->address_2}}</td>
+                                            <td>{{$address->phone}}</td>
                                             <td>{{$address->city_id}}</td>
                                             <td>{{$address->province_id}}</td>
                                             <td>{{$address->country_id}}</td>

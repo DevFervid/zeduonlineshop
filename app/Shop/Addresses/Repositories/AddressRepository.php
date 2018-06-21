@@ -129,6 +129,7 @@ class AddressRepository extends BaseRepository implements AddressRepositoryInter
         return $this->model->search($text, [
             'address_1' => 10,
             'address_2' => 5,
+            'phone' => 5,
             'province.name' => 5,
             'city.name' => 5,
             'country.name' => 5
